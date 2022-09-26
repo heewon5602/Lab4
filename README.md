@@ -65,7 +65,7 @@ summarize about shell commands
   4. Data???: any filenme that begns with the characters "Data" followed by exactly 3 more characters
   5. cp *.txt text_files: copy all files in the current working directory with names ending with the characters ".txt" to an existing director named text_files
   6. mv dir1 ../*bak dir2: move the subdirectory dir1 and all the fiels ending in ".bak" in the current working directory's parent directoy to an existing directory named dir2.
-  7. rm *~: \delete all files in the current working directory that end with the character "~".
+  7. rm *~: \delete all files in the current working directory that end with the character " ~ ".
   
 **\*man**
 : help command
