@@ -49,7 +49,7 @@ summarize about shell commands
   4. mv dir1 dir2: if dir2 does not exist, then dir1 is renamed dir2.
   
 **\*rm**
-   : \delete files and directories permantely and irreversevley
+   : \*delete*\ files and directories permantely and irreversevley
    1. rm file1 file2: delete fiel1 and file2
    2. rm -i file1 file2: like above however, since the "-i"(interactive) option is specified
    3. rm -r dir1 dir2: directions dir1 and dir2 are deleted along with all of their contents
