@@ -7,9 +7,9 @@ summarize about shell commands
 \* kernel: Core of OS that cntrols and communicates with hardware resource  
 
 #### languages  
-**pwd**: shows the current path in a hierarchical directory  
-**cd**: change directory
-**ls**: list files and directories
+**\*pwd**: shows the current path in a hierarchical directory  
+**\*cd**: change directory
+**\*ls**: list files and directories
  *arguments*
   1. '/': root
   2. '.': current directory
@@ -30,34 +30,34 @@ summarize about shell commands
   4. 'ls -l /etc /bin': list the files in the '/bing' directory and the '/etc' directory in long format (show information about bin&etc in long format)
   5. 'ls -la ..': list all files in the parent of the working directory in long format 
 
-**clear**
+**\*clear**
  input "clear" -> delete files and directories
  *Warnings: Make sure to backup important contents*
  
- **cp**
+ **\*cp**
   : copy files and directories
  1. cp file1 file2: copies the contents of file1 into file2 (if file2 does not exist, it is created)
  2. cp -i file1 file2: like above however, since the "-i"(interactive) opton is specified
  3. cp file1 dir1: copy the contents of file1 inside of directory dir1
  4. cp -R dir1 dir2: copy the contents of the directory dir1 (if directory dir2 does not exist, it is created)
  
-**mv**
+**\*mv**
   : move files and directories or rename them
   1. mv file1 file2: If file2 does not exist, then file1 is renamed filew
   2. mv -i file1 file2: Like above however, since the "-i"(interactive) option is specified
   3. mv file file2 dir1: the files file1 and file2 are moved to directory dir1
   4. mv dir1 dir2: if dir2 does not exist, then dir1 is renamed dir2.
   
-**rm**
-   : delete files and directories permantely and irreversevley
+**\*rm**
+   : \delete files and directories permantely and irreversevley
    1. rm file1 file2: delete fiel1 and file2
    2. rm -i file1 file2: like above however, since the "-i"(interactive) option is specified
    3. rm -r dir1 dir2: directions dir1 and dir2 are deleted along with all of their contents
    
-   **mkdir**
+**\*mkdir**
     : make a new directory
     
-**Wildcards**
+**\*Wildcards**
   : specify multiple files at once
   1. *: all filenames
   2. g*: all filenames that begin with the character "g"
@@ -67,14 +67,14 @@ summarize about shell commands
   6. mv dir1 ../*bak dir2: move the subdirectory dir1 and all the fiels ending in ".bak" in the current working directory's parent directoy to an existing directory named dir2.
   7. rm *~: delete all files in the current working directory that end with the character "~".
   
-**man**
+**\*man**
 : help command
 
-**exit**
+**\*exit**
 : exiting terminal
  
 
-  ***Tip***
+***Tip***
    1. autocompletion 
       ex) neuralintlab : n -> press "tab" key -> neuralintlab
                          if, 'neauralintlab' and 'nauralintlab' present in one folder: ne -> press "tab" key -> neuralintlab
