@@ -2,11 +2,11 @@
 summarize about shell commands
 
 ## Shell commands
-#### meaning
+### meaning
 **Shell**: Interface that allows users to communicate with (\*)kernel/ Users runs applications and give commands throgh shell
 \* kernel: Core of OS that cntrols and communicates with hardware resource  
 
-#### languages  
+### languages  
 **\*pwd**: shows the current path in a hierarchical directory  
 **\*cd**: change directory
 **\*ls**: list files and directories
